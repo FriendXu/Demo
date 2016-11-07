@@ -24,4 +24,4 @@ Git分支小结：
 删除分支：git branch -d <name>
 =======git branch test=======
 git log --graph命令可以看到分支合并图。
-强制禁用FastForword
+--no-ff参数，表示禁用Fast forward
