@@ -38,3 +38,11 @@ feature分支是否推到远程，取决于你是否和你的小伙伴合作在�
 建立本地分支和远程分支的关联，使用git branch --set-upstream branch-name origin/branch-name；
 从远程抓取分支，使用git pull，如果有冲突，要先处理冲突。
 29、Git的标签虽然是版本库的快照，但其实它就是指向某个commit的指针（跟分支很像对不对？但是分支可以移动，标签不能移动），所以，创建和删除标签都是瞬间完成的。tag就是一个让人容易记住的有意义的名字，它跟某个commit绑在一起。
+30、git tag <name>就可以打一个新标签，默认为HEAD。
+31、git tag查看所有标签。
+32、git show <tagname>查看标签信息
+33、不打标签 git tag v0.9 commitID.
+34、可以创建带有说明的标签，用-a指定标签名，-m指定说明文字；
+	$ git tag -a v0.1 -m "version 0.1 released" 3628164
+35、可以通过-s用私钥签名一个标签：
+	$ git tag -s v0.2 -m "signed version 0.2 released" fec145a
