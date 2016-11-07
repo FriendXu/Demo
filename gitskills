@@ -23,4 +23,5 @@ Git分支小结：
 合并某分支到当前分支：git merge <name>
 删除分支：git branch -d <name>
 =======git branch test=======
-future test git pull&push
+future test git pullpandush
+
