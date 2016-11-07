@@ -1,0 +1,16 @@
+git study
+git add  把文件添加到暂存区
+git commit -m xxx 提交暂存区所有的文件提交到当前分支 
+			m后面为本次提交的说明
+git status 返回仓库的当前状态
+git diff 查看修改内容
+git log 查看修改历史
+git reset --hard HEAD^ 版本回退HEAD表示当前版本HEAD^表示上一版本
+git reset命令既可以回退版本，也可以把暂存区的修改回退到工作区
+git reflog 查看历史命令
+git管理的是修改。
+git diff HEAD -- readme.txt  可以查看工作区和版本库里面最新版本的区别
+git checkout -- file可以丢弃工作区的修改
+git rm用于删除一个文件
+git push命令，实际上是把当前分支master推送到远程
+要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git；
